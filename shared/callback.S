@@ -140,3 +140,4 @@ armor_pthread_enter:
     // simply jump. we will return to R11 (our caller)
     jmp armor_cbk_pthread_hook
 
+.section .note.GNU-stack,"",%progbits
