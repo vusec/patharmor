@@ -183,3 +183,5 @@ armor_lib_function_returned:
 armor_lib_return:
     // And return!
     ret;
+
+.section .note.GNU-stack,"",%progbits
